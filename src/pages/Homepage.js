@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Grid, Box, Button } from '@mui/material';
 import styled from 'styled-components';
-// import Students from "../assets/students.svg";
+
 import logo from '../assets/sahyadrilogo.png'
 import { PurpleButton } from '../components/buttonStyles';
 
@@ -27,13 +27,7 @@ const Homepage = () => {
                                     Login
                                 </PurpleButton>
                             </StyledLink>
-                            {/* <StyledLink to="/chooseasguest">
-                                <Button variant="outlined" fullWidth
-                                    sx={{ mt: 2, mb: 3, color: "#7f56da", borderColor: "#7f56da" }}
-                                >
-                                    Login as Guest
-                                </Button>
-                            </StyledLink> */}
+                          
                             <StyledText>
                                 Don't have an account?{' '}
                                 <Link to="/Adminregister" style={{color:"#550080"}}>
