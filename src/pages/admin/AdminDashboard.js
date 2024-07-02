@@ -21,7 +21,7 @@ import AddStudent from './studentRelated/AddStudent';
 
 import ShowStudents from './studentRelated/ShowStudents';
 import StudentAttendance from './studentRelated/StudentAttendance';
-import StudentExamMarks from './studentRelated/StudentExamMarks';
+
 import ViewStudent from './studentRelated/ViewStudent';
 
 
