@@ -47,11 +47,7 @@ const App = () => {
           <TeacherDashboard />
         </>
       }
-      {currentRole === "Parent" &&
-        <>
-          <ParentDashboard />
-        </>
-      }
+      
     </Router>
   )
 }
